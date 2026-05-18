@@ -84,11 +84,5 @@ Running the pipeline will automatically generate the following directory structu
 ```text
 .
 ├── autolyrics_v2_slt_preprocessed.ipynb  # Main pipeline notebook
-├── checkpoints/                          # Model artifacts
-│   ├── lora_best/                        # Best saved LoRA weights & config
-│   ├── results.json                      # Raw validation tracking data
-│   └── test_results.json                 # Final test set metrics
 └── report/                               # Auto-generated performance artifacts
-    ├── performance_report.png            # Visual graphs (Loss, WER, CER)
-    ├── qualitative_predictions.txt       # Side-by-side REF vs HYP lyric samples
-    └── report_summary.json               # Machine-readable comprehensive summary
+
