@@ -84,5 +84,5 @@ Running the pipeline will automatically generate the following directory structu
 ```text
 .
 ├── autolyrics_v2_slt_preprocessed.ipynb  # Main pipeline notebook
-└── report/                               # Auto-generated performance artifacts
+└── report ( 3 parts)                              # Auto-generated performance artifacts
 
